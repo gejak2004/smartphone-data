@@ -27,4 +27,4 @@ tidy data.
 More information can be found in the [code book](CodeBook.md).  
     
 
-> Note: *reshape2* package is required for the R script to function. 
+> Note: *reshape2* package is required. 
