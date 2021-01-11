@@ -3,9 +3,6 @@
 ## Getting and Cleaning Data Course Project
 
 
-
-
-
 The goal of this project is to demonstrate basic getting and cleaning data skills using ["Human Activity Recognition Using Smartphones Data Set"](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Some minor analysis of the original data set was carried out in order to produce
 tidy data.
 
