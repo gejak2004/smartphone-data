@@ -48,7 +48,7 @@ deviation of the raw data variables. Each feature was then summarized over parti
 There are 180 rows (30 participants x 6 activities), two index columns (SubjectID, Activity) and the remaining 66 columns contain mean values of the target features for 
 the particular values of participant ID and activity.
 
-* `tidy.csv`:  data for mean values of features of interest for each participant and activity .
+* `tidy.txt`:  data for mean values of features of interest for each participant and activity .
 
 ### Production steps
 
@@ -56,6 +56,6 @@ the particular values of participant ID and activity.
 3. Human readable form for activites was achieved by converting integer activity ID into a factor, using text labels for the activities.
 2. Variables with  "mean()" or "std()", together with SubjectId and Activity were then extracted into a separate data frame.
 4. The tidy data containing mean summary over SubjectId, Activity for each variable was produced using R's data reshaping facilities.
-5. The tidy data set was saved in a comma-separated-value (CSV) format file.
+5. The tidy data set was saved in a file using table format.
 
 ***

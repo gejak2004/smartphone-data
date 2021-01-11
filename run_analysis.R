@@ -78,4 +78,4 @@ long_data <- melt(data,
 tidy_data <- dcast(long_data, SubjectID + Activity ~ Feature, mean)
 
 # export tidy data to a file
-write.csv(tidy_data, file='tidy.csv', row.names=FALSE)
+write.table(tidy_data, file='tidy.txt', row.names=FALSE)
