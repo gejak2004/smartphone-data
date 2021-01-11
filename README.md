@@ -23,7 +23,7 @@ tidy data.
 	* `X_test.txt`
 	* `y_test.txt`   
 	
-	\  
+	  
     should be extracted into the **same** directory where the R script is.
 
 **Final phase** consists of executing R script ([run_analysis.R](run_analysis.R)). The output of the R script is a tidy data set, [tidy.csv](tidy.csv).
