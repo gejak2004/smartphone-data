@@ -23,7 +23,6 @@ tidy data.
 	* `X_test.txt`
 	* `y_test.txt`   
 	
-	\
 	\  
     should be extracted into the **same** directory where the R script is.
 
